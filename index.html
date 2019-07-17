@@ -7,16 +7,44 @@
 <body>
  <h1>This is HM's <strong><u>first</u> web page.</strong></h1>
 
-  <p>My name is Hyeong Min Yoon.<br>
+ <p>
+  My name is Hyeong Min Yoon.<br>
   I live in Korea. <br>
-   I am 25 years old.<br><br></p>
+  I am 25 years old.<br><br>
+ </p>
 
  <img src="main photo.JPG" width="10%" />
 
- <p><ol>
+ <p>
+  <ol>
   <li><a href="스포츠.html" target="_blank">운동</a><br></li>
   <li><a href="쇼핑.html" target="_blank">쇼핑</a><br></li>
   <li><a href="외국어.html" target="_blank">외국어</a><br></li>
- </ol></p>
+ </ol>
+ </p>
+
+ <p>
+  <div id="disqus_thread"></div>
+  <script>
+
+  /**
+  *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+  *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+  /*
+  var disqus_config = function () {
+  this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+  this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+  };
+  */
+  (function() { // DON'T EDIT BELOW THIS LINE
+  var d = document, s = d.createElement('script');
+  s.src = 'https://firstweb-4.disqus.com/embed.js';
+  s.setAttribute('data-timestamp', +new Date());
+  (d.head || d.body).appendChild(s);
+  })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+ </p>
+
 </body>
 </html>
